@@ -87,12 +87,7 @@ Tests are organized into:
 
 ## Running Linting
 
+run
 ```
-flake8
-```
-
-## Running Security Analysis
-
-```
-bandit -r .
+python quality_check.py
 ```
